@@ -2,7 +2,8 @@
 
 This sample shows how to use the Inception V3 model from TensorFlow as featurtizers to perform transfer learing on any classes of images you want.
 
-Please visit this [tutorial](https://github.com/Azure/ViennaDocs/blob/master/Documentation/TransferLearning.md) for detailed instruction. 
+Please visit this tutorial for detailed instruction. 
+https://github.com/Azure/ViennaDocs/blob/master/Documentation/TransferLearning.md
 
 Note you need to populate the images folder with at least 2 sub folders of images before you can run the training job.
 
