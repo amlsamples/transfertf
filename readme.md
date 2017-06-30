@@ -5,7 +5,7 @@ This sample shows how to use the Inception V3 model from TensorFlow as featurtiz
 Please visit this tutorial for detailed instruction. 
 https://github.com/Azure/ViennaDocs/blob/master/Documentation/TransferLearning.md
 
-Note you need to populate the images folder with at least 2 sub folders of images before you can run the training job.
+Note you need to populate the images folder with at least 2 sub folders of images before you can run the training job. And only JPEG format is supported.
 
 Quick shortcuts:
 
