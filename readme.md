@@ -11,8 +11,8 @@ Quick shortcuts:
 
 ```
 # Train the model
-$ az ml execute start -c docker retrain.py --bottleneck_dir=bottlenecks --model_dir=inception --summaries_dir=outputs/training_summaries/long --output_graph=outputs/retrained_graph.pb --output_labels=outputs/retrained_labels.txt --image_dir=images
+$ az ml experiment submit -c docker retrain.py --bottleneck_dir=bottlenecks --model_dir=inception --summaries_dir=outputs/training_summaries/long --output_graph=outputs/retrained_graph.pb --output_labels=outputs/retrained_labels.txt --image_dir=images
 
 # Score the model
-az ml execute start -c myvm ./label_image.py --graph retrained_graph.pb --labels retrained_labels.txt --image new_test.jpg
+az ml experiment submit -c myvm ./label_image.py --graph retrained_graph.pb --labels retrained_labels.txt --image new_test.jpg
 ```
